@@ -1,7 +1,6 @@
-import './App.css'
-import Cabecera from './componentes/Cabecera.jsx'
-import Roles from './componentes/Roles.jsx'
-import Dashboard from './componentes/Dashboard.jsx'
+import Cabecera from './componentes/Cabecera/Cabecera'
+import Roles from './componentes/Roles/Roles'
+import Dashboard from './componentes/Dashboard/Dashboard'
 function App() {
   const usuario = 'Alejandro'
   const token = 'abc123xyz456'
